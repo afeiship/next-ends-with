@@ -2,7 +2,8 @@
 > Checks if string ends with the given target string.
 
 
-## resources:
-
-## todos:
-- [ ] unit test case
+## usage:
+```js
+nx.endsWith('abc', 'c'); // true
+nx.endsWith('abc', 'b'); // false
+```
